@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ieee-sb-nitdgp/static/css/main.32479bf6.css",
+    "main.js": "/ieee-sb-nitdgp/static/js/main.e5663c7f.js",
+    "static/js/453.6975eaec.chunk.js": "/ieee-sb-nitdgp/static/js/453.6975eaec.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/ieee-sb-nitdgp/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/ieee-sb-nitdgp/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/ieee-sb-nitdgp/index.html",
+    "main.32479bf6.css.map": "/ieee-sb-nitdgp/static/css/main.32479bf6.css.map",
+    "main.e5663c7f.js.map": "/ieee-sb-nitdgp/static/js/main.e5663c7f.js.map",
+    "453.6975eaec.chunk.js.map": "/ieee-sb-nitdgp/static/js/453.6975eaec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32479bf6.css",
+    "static/js/main.e5663c7f.js"
+  ]
+}
