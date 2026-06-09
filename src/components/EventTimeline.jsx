@@ -76,34 +76,7 @@ export default function EventTimeline() {
   const [direction, setDirection] = useState(1);
   const [paused, setPaused] = useState(false);
 
-  const isDown = useRef(false);
-const startX = useRef(0);
-const scrollLeft = useRef(0);
 
-const mouseDown = (e) => {
-  isDown.current = true;
-  startX.current = e.pageX;
-  scrollLeft.current = timelineRef.current.scrollLeft;
-};
-
-const mouseLeave = () => {
-  isDown.current = false;
-};
-
-const mouseUp = () => {
-  isDown.current = false;
-};
-
-const mouseMove = (e) => {
-  if (!isDown.current) return;
-
-  e.preventDefault();
-
-  const walk = (e.pageX - startX.current) * 2;
-
-  timelineRef.current.scrollLeft =
-    scrollLeft.current - walk;
-};
 
   useEffect(() => {
     const container = timelineRef.current;

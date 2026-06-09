@@ -27,17 +27,17 @@ function Footer(){
 
                 <ul className="list-unstyled">
                     <li>
-                        <a href="#" className="text-white text-decoration-none">
+                        <a href="/About" className="text-white text-decoration-none">
                             About IEEE SB
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-white text-decoration-none">
+                        <a href="/" className="text-white text-decoration-none">
                             About IEEE
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-white text-decoration-none">
+                        <a href="/Event" className="text-white text-decoration-none">
                             Research Activities
                         </a>
                     </li>

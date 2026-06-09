@@ -1,4 +1,4 @@
-import About_info from "../components/About.jsx"
+import AboutInfo from "../components/About.jsx"
 import About2 from "../components/About2.jsx"
 import About1 from "../components/About1.jsx"
 function About(){
@@ -7,7 +7,7 @@ function About(){
         <>
         <About1/>
         <About2/>
-        <About_info/>
+        <AboutInfo/>
         <div className="min-vh-100">
 
         </div>
