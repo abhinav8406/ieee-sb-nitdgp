@@ -1,0 +1,11 @@
+.show-nav {
+  transform: translateY(0);
+}
+
+.hide-nav {
+  transform: translateY(-100%);
+}
+
+.navbar {
+  transition: transform 0.35s ease;
+}
